@@ -35,12 +35,12 @@ class Bank:
 
         else:
             self.customers[account_number] = initial_balance
-            print("Account created succesfully") 
+            print("Account created successfully") 
 
     def make_deposit(self, account_number, amount):
         if account_number in self.customers:
             self.customers[account_number] += amount 
-            print("Deposit succesful")
+            print("Deposit successful")
 
         else:
             print("Account number does not exist")
